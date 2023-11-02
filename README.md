@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# A blog react app that leverages RRDv6.17 and a Store Context
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
+
+### `npm i json-server`
+
+Downloads the [`json-server`](https://www.npmjs.com/package/json-server) that is used for this project
+
+### `json-server --watch .\data\db.json --port 3500 --delay 2000`
+
+Runs a test backend server on port `3500` with two second delay
 
 ### `npm start`
 
